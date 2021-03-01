@@ -10,6 +10,6 @@ const Model1Schema = new Schema({
     Created: { type: Date, default: Date.now() }
 });
 
-scheduleSchema.plugin(AutoIncrement, { inc_field: 'counterId' })
+Model1Schema.plugin(AutoIncrement, { inc_field: 'CounterId' })
 const Model1 = mongoose.model("Model1", Model1Schema);
 module.exports = Model1;

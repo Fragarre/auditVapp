@@ -1,5 +1,5 @@
 {
-  "name": "auditVapp",
+  "name": "auditvapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -19,15 +19,15 @@
   },
   "homepage": "https://github.com/Fragarre/auditVapp#readme",
   "dependencies": {
-    "@graphql-tools/load-files": "^6.0.3",
-    "@graphql-tools/merge": "^6.0.3",
-    "apollo-server-express": "^2.19.2",
-    "bcrypt": "^5.0.0",
+    "@graphql-tools/load-files": "^6.2.7",
+    "@graphql-tools/merge": "^6.2.10",
+    "apollo-server": "^2.21.0",
+    "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "graphql-import-node": "^0.0.4",
-    "mongoose": "^5.11.5",
+    "mongoose": "^5.11.18",
     "mongoose-sequence": "^5.3.1"
   },
   "devDependencies": {

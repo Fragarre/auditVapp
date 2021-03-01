@@ -1,6 +1,4 @@
-require("dotenv").config({
-    path: "variables.env",
-});
+//require("dotenv").config({ path: "variables.env" });
 
 module.exposts = {
     CreateRecord: async (model, data) => {
